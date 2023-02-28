@@ -1,0 +1,462 @@
+[
+    {
+        "_id": "63b66cea77c91288f2cbded5",
+        "form_label": "Application Form",
+        "component": "form",
+        "layout": "one",
+        "id": 1,
+        "className": "bg-light p-2 form-group flex-wrap d-flex flex-row justify-content-start",
+        "children": [
+            {
+                "component": "label",
+                "value": "FULL NAME :"
+            },
+            {
+                "component": "input",
+                "type": "text",
+                "name": "fullName",
+                "placeholder": "Enter your fullname",
+                "className": "form-control m-1",
+                "value": "7878",
+                "validate": "^[a-zA-Z ]*$"
+            },
+            {
+                "component": "label",
+                "value": "AADHAR NUMBER :"
+            },
+            {
+                "component": "input",
+                "type": "number",
+                "value": "999999999912",
+                "name": "aadhar",
+                "placeholder": "Enter your Aadhar Number",
+                "className": "form-control m-1",
+                "validate": "^[0-9]{12}$"
+            },
+            {
+                "component": "label",
+                "value": "PHONE NUMBER :"
+            },
+            {
+                "component": "input",
+                "type": "number",
+                "value": "9999999999",
+                "name": "phoneNumber",
+                "placeholder": "9999999999",
+                "className": "form-control m-1"
+            },
+            {
+                "component": "label",
+                "value": "EMAIL ID :"
+            },
+            {
+                "component": "input",
+                "type": "email",
+                "value": "admin@gmail.com",
+                "name": "email",
+                "placeholder": "example@gmail.com",
+                "className": "form-control m-1",
+                "validate": "[a-z0-9._%+-]+@[a-z0-9.-]+\\.[a-z]{2,}$"
+            },
+            {
+                "component": "label",
+                "value": "ZIP CODE"
+            },
+            {
+                "component": "input",
+                "type": "number",
+                "name": "zipcode",
+                "placeholder": "Enter zip code",
+                "className": "form-control m-1",
+                "value": 533001
+            },
+            {
+                "component": "label",
+                "value": "STATE NAME :"
+            },
+            {
+                "component": "input",
+                "type": "text",
+                "name": "state",
+                "placeholder": "Enter your state",
+                "className": "form-control m-1",
+                "value": "AP"
+            },
+            {
+                "component": "label",
+                "value": "CITY NAME :"
+            },
+            {
+                "component": "input",
+                "type": "text",
+                "name": "city",
+                "placeholder": "Enter your state",
+                "className": "form-control m-1",
+                "value": "kakinada"
+            },
+            {
+                "component": "button",
+                "value": "Submit ➪",
+                "className": "btn btn-primary w-25 align-left m-1"
+            }
+        ]
+    },
+    {
+        "_id": "63b66d2977c91288f2cc246d",
+        "form_label": "Login",
+        "component": "form",
+        "layout": "two",
+        "id": 2,
+        "className": "d-flex bg-light border rounded p-3 w-70 flex-column align-items-start",
+        "children": [
+            {
+                "component": "label",
+                "value": "USER NAME :"
+            },
+            {
+                "component": "input",
+                "type": "text",
+                "value": "tom",
+                "placeholder": "UserName",
+                "className": "form-control  m-1"
+            },
+            {
+                "component": "label",
+                "value": "EMAIL ID :"
+            },
+            {
+                "component": "input",
+                "type": "email",
+                "value": "admin@gmail.com",
+                "placeholder": "Email",
+                "className": "form-control  m-1"
+            },
+            {
+                "component": "label",
+                "value": "PASSWORD :"
+            },
+            {
+                "component": "input",
+                "type": "password",
+                "value": "admin",
+                "placeholder": "Password",
+                "className": "form-control  m-1",
+                "validate": "(?=.*\\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+            },
+            {
+                "component": "input",
+                "type": "checkbox",
+                "value": "checked",
+                "className": "form-check-input m-1"
+            },
+            {
+                "component": "label",
+                "value": "Remember me"
+            },
+            {
+                "component": "button",
+                "value": "Submit ➪",
+                "className": "btn btn-primary w-100 m-1"
+            }
+        ]
+    },
+    {
+        "_id": "63b66d5277c91288f2cc4d3f",
+        "form_label": "Sign IN",
+        "component": "form",
+        "layout": "two",
+        "id": 3,
+        "className": "d-flex bg-light border rounded p-3 w-70 flex-column align-items-start",
+        "children": [
+            {
+                "component": "input",
+                "type": "text",
+                "value": "Ram",
+                "placeholder": "UserName",
+                "className": "form-control m-1"
+            },
+            {
+                "component": "input",
+                "type": "email",
+                "value": "admin@gmail.com",
+                "placeholder": "Email",
+                "className": "form-control m-1"
+            },
+            {
+                "component": "input",
+                "type": "password",
+                "value": "admin",
+                "placeholder": "Password",
+                "className": "form-control m-1",
+                "validate": "(?=.*\\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+            },
+            {
+                "component": "button",
+                "value": "Submit ➪",
+                "className": "btn btn-primary w-100 m-1"
+            }
+        ]
+    },
+    {
+        "_id": "63b66d7d77c91288f2cc78d6",
+        "form_label": "Registration",
+        "component": "form",
+        "layout": "three",
+        "id": 4,
+        "className": "bg-light p-2 d-flex justify-content-start align-items-center",
+        "children": [
+            {
+                "component": "input",
+                "type": "text",
+                "value": "Sai",
+                "placeholder": "FirstName",
+                "className": "form-control m-1"
+            },
+            {
+                "component": "input",
+                "type": "text",
+                "value": "Kumar",
+                "placeholder": "LastName",
+                "className": "form-control m-1"
+            },
+            {
+                "component": "input",
+                "type": "email",
+                "value": "admin@gmail.com",
+                "placeholder": "Email",
+                "className": " form-control m-1"
+            },
+            {
+                "className": "form-control m-1",
+                "component": "input",
+                "type": "password",
+                "value": "admin",
+                "placeholder": "Password",
+                "validate": "(?=.*\\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+            },
+            {
+                "className": "form-control m-1",
+                "component": "input",
+                "type": "password",
+                "value": "admin",
+                "placeholder": "Confirm Password",
+                "validate": "(?=.*\\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+            },
+            {
+                "component": "label",
+                "value": "D.O.B:"
+            },
+            {
+                "component": "input",
+                "type": "date",
+                "value": "",
+                "placeholder": "",
+                "className": "form-control m-1"
+            },
+            {
+                "component": "button",
+                "value": "Submit ➪",
+                "className": "btn btn-primary w-50 m-1"
+            }
+        ]
+    },
+    {
+        "_id": "63b66db177c91288f2ccb416",
+        "form_label": "Registration",
+        "component": "form",
+        "layout": "four",
+        "id": 5,
+        "className": " flex-wrap flex-row bg-light p-2 d-flex justify-content-center align-items-center",
+        "children": [
+            {
+                "component": "input",
+                "type": "text",
+                "value": "kiran",
+                "placeholder": "FirstName",
+                "className": "form-control w-50",
+                "name": "firstname",
+                "validation": {
+                    "msg": "required"
+                }
+            },
+            {
+                "component": "input",
+                "type": "text",
+                "value": "kumar",
+                "placeholder": "LastName",
+                "className": "form-control w-50",
+                "name": "lastname"
+            },
+            {
+                "component": "input",
+                "type": "email",
+                "value": "admin@gmail.com",
+                "placeholder": "Email",
+                "className": "form-control mt-2",
+                "name": "email"
+            },
+            {
+                "component": "input",
+                "type": "password",
+                "value": "admin",
+                "placeholder": "Password",
+                "className": "form-control mt-2 w-50",
+                "name": "password",
+                "validate": "(?=.*\\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+            },
+            {
+                "component": "input",
+                "type": "password",
+                "value": "admin",
+                "placeholder": "Confirm Password",
+                "className": "form-control mt-2 w-50",
+                "name": "confirm-password",
+                "validate": "(?=.*\\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+            },
+            {
+                "component": "button",
+                "value": "Submit ➪ ",
+                "className": "btn btn-primary m-1 w-50"
+            }
+        ]
+    },
+    {
+        "_id": "63bcf6df6a148ed036bd116a",
+        "form_label": "Form",
+        "component": "form",
+        "layout": "five",
+        "id": 6,
+        "className": "bg-light p-2 form-group flex-wrap d-flex flex-row justify-content-start",
+        "children": [
+            {
+                "component": "label",
+                "value": "FULL NAME :"
+            },
+            {
+                "component": "input",
+                "type": "text",
+                "name": "fullname",
+                "placeholder": "Enter your fullname",
+                "className": "form-control m-1",
+                "value": "7878"
+            },
+            {
+                "component": "label",
+                "value": "AADHAR NUMBER :"
+            },
+            {
+                "component": "input",
+                "type": "number",
+                "value": "999999999912",
+                "name": "aadhar",
+                "placeholder": "Enter your Aadhar Number",
+                "className": "form-control m-1"
+            },
+            {
+                "component": "label",
+                "value": "PHONE NUMBER :"
+            },
+            {
+                "component": "input",
+                "type": "number",
+                "value": "9999999999",
+                "name": "phoneNumber",
+                "placeholder": "9999999999",
+                "className": "form-control m-1"
+            },
+            {
+                "component": "label",
+                "value": "EMAIL ID :"
+            },
+            {
+                "component": "input",
+                "type": "email",
+                "value": "admin@gmail.com",
+                "name": "email",
+                "placeholder": "example@gmail.com",
+                "className": "form-control m-1"
+            },
+            {
+                "component": "label",
+                "value": "ZIP CODE"
+            },
+            {
+                "component": "input",
+                "type": "number",
+                "value": "",
+                "placeholder": "Enter zip code",
+                "className": "form-control m-1",
+                "name": "zipcode"
+            },
+            {
+                "component": "label",
+                "value": "STATE NAME :"
+            },
+            {
+                "component": "input",
+                "type": "text",
+                "name": "state",
+                "placeholder": "Enter your state",
+                "className": "form-control m-1",
+                "value": "AP"
+            },
+            {
+                "component": "label",
+                "value": "CITY NAME :"
+            },
+            {
+                "component": "input",
+                "type": "text",
+                "name": "city",
+                "placeholder": "Enter your state",
+                "className": "form-control m-1",
+                "value": "kakinada"
+            },
+            {
+                "component": "label",
+                "value": "Date : "
+            },
+            {
+                "component": "input",
+                "type": "date",
+                "className": "form-control w-auto"
+            },
+            {
+                "component": "label",
+                "value": "Documents : "
+            },
+            {
+                "component": "input",
+                "type": "file",
+                "className": "form-control mt-2 w-auto"
+            },
+            {
+                "component": "label",
+                "value": "Gender : "
+            },
+            {
+                "component": "select",
+                "className": "form-select w-auto",
+                "children": [
+                    {
+                        "component": "option",
+                        "value": "male"
+                    },
+                    {
+                        "component": "option",
+                        "value": "female"
+                    },
+                    {
+                        "component": "option",
+                        "value": "Not to say"
+                    }
+                ]
+            },
+            {
+                "component": "button",
+                "value": "Submit ➪",
+                "className": "btn btn-primary w-100 align-left m-1"
+            }
+        ]
+    }
+]
